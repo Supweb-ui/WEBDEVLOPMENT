@@ -175,3 +175,87 @@ localStorage is reset
 ---
 
 ✅ That’s it — simple, interactive, colourful To-Do List app 🚀
+
+
+TASK 4📱 Responsive Website with CSS Media Queries
+
+🎯 Objective
+
+Convert an existing desktop-only page into a mobile-friendly layout using CSS media queries.
+
+🛠 Tools Used
+
+HTML5
+
+CSS3
+
+JavaScript (for hamburger menu toggle)
+
+Chrome DevTools (for testing responsiveness)
+
+VS Code (for development)
+
+
+📂 Project Structure
+
+📦 Responsive-Website  
+ ┣ 📜 index.html  
+ ┣ 📜 style.css  (optional, if you separate CSS)  
+ ┣ 📜 script.js  (optional, if you separate JS)  
+ ┗ 📜 README.md
+
+✨ Features Implemented
+
+✔ Mobile-first design using media queries
+✔ Responsive navigation bar with hamburger menu
+✔ Columns stack vertically on smaller screens
+✔ Responsive images (max-width: 100%)
+✔ Smooth animations & hover effects
+✔ No horizontal scrolling / overflow issues
+
+📐 Media Queries Used
+
+/* Tablet & below */
+@media (max-width: 768px) {
+  /* Nav stacks vertically, layout adjusts */
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  /* Font size adjusts for readability */
+}
+
+🚀 How to Run
+
+1. Open index.html in any modern browser (Chrome recommended).
+
+
+2. Resize the browser window or press F12 → Toggle Device Toolbar → Test on different devices.
+
+
+3. The navigation menu will collapse into a hamburger button on smaller screens.
+
+
+
+🎬 Demo Walkthrough
+
+On desktop: Navigation bar is horizontal, content is in 2 columns (main + sidebar).
+
+On tablet: Navigation stacks vertically, content stacks vertically.
+
+On mobile: Font size reduces, hamburger menu opens/closes with animation.
+
+
+📖 Outcome
+
+✅ Grasped CSS media queries
+
+✅ Built mobile-first design
+
+✅ Practiced flexible layouts
+
+✅ Successfully made a desktop-only page mobile-friendly
+
+
+
+---
