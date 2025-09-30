@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact Form — Validation Example</title>
+  <!-- Link CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="card" role="main" aria-labelledby="heading">
+    <h1 id="heading">Contact us</h1>
+
+    <div id="formMessage" class="success" aria-live="polite" style="display:none;"></div>
+
+    <form id="contactForm" novalidate>
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" autocomplete="name" />
+        <div id="nameError" class="error" aria-live="polite"></div>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" autocomplete="email" />
+        <div id="emailError" class="error" aria-live="polite"></div>
+      </div>
+
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" name="message"></textarea>
+        <div id="messageError" class="error" aria-live="polite"></div>
+      </div>
+
+      <button type="submit" id="submitBtn">Send message</button>
+      <div class="help">This demo only validates and shows a success message — it does not send emails.</div>
+    </form>
+  </main>
+
+  <!-- Link JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
